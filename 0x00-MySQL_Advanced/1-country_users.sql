@@ -8,5 +8,5 @@ CREATE TABLE
         -- User name
         name VARCHAR(255),
         -- User country, can only be one of 'US', 'CO', or 'TN'
-        country ENUM ('US', 'CO', 'TN') (default 'US') NOT NULL 
+        country ENUM ('US', 'CO', 'TN') DEFAULT 'US' NOT NULL 
     );
